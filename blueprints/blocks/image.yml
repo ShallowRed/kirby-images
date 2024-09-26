@@ -1,0 +1,11 @@
+name: field.blocks.image.name
+icon: image
+preview: image
+fields:
+  image:
+    extends: fields/image
+  critical:
+    label: Image prioritaire
+    type: toggle
+    default: false
+    text: L'image doit charger en priorité

@@ -1,0 +1,14 @@
+name: Carousel
+extends: blocks/gallery
+fields:
+  autoplay:
+    label: Autoplay
+    type: toggle
+    default: true
+    text: Oui
+    help: Activer le défilement automatique des images
+  interval:
+    label: Intervalle
+    type: number
+    default: 5000
+    help: Durée en millisecondes entre chaque image
